@@ -1,5 +1,7 @@
-hello world !
+Hello Cicee !
 
-License
+# License
+
+---
 
 Cicee is available under the terms of the [MIT License](/LICENSE.md).
