@@ -8,15 +8,16 @@ var async = require('async');
  * Controllers
  */
 
-var index = require('../app/controllers/index');
+var home = require('../app/controllers/home');
+
 
 /**
  * Expose routes
  */
 
 module.exports = function(app) {
-
-	// user routes
-	app.get('/', index.index);
+	
+	//home routes
+	app.get('/', home.index);
 
 };

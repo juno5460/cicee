@@ -1,6 +1,6 @@
 /*!
  * Cicee
- * Copyright(c) 2013 Madhusudhan Srinivasa <madhums8@gmail.com>
+ * Copyright(c) 2013 Juno Leung <lyuno@vip.qq.com>
  * MIT Licensed
  */
 
@@ -35,7 +35,7 @@ require('./config/setting')(app, config);
 require('./config/routes')(app);
 
 // Start the app by listening on <port>
-var port = process.env.PORT || 80;
+var port = process.env.PORT || 3000;
 app.listen(port);
 console.log('Express app started on port ' + port);
 
