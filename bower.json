@@ -4,11 +4,14 @@
 	"dependencies": {
 		"bootstrap": "*",
 		"html5-boilerplate": "*",
-		"normalize-css": "*",
 		"modernizr": "*",
 		"jquery": "1.10.2"
 	},
 	"exportsOverride": {
-
+		"bootstrap": {
+			"js": "dist/js/*.js",
+			"css": "dist/css/*.css",
+			"fonts": "dist/fonts/*"
+		}
 	}
 }

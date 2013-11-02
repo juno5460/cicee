@@ -7,6 +7,7 @@ module.exports = function(grunt) {
 					targetDir: 'public/vendor',
 					layout: 'byComponent',
 					install: true,
+					copy: true,
 					verbose: true,
 					cleanTargetDir: true,
 					cleanBowerDir: true
