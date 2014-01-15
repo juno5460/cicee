@@ -3,21 +3,28 @@ var rootPath = path.normalize(__dirname + '/..');
 
 module.exports = {
   development: {
-    db: 'mongodb://localhost/noobjs_dev',
-    root: rootPath,
-    app: {
-      name: 'Nodejs Express Mongoose Demo'
-    }
-  },
-  test: {
-    db: 'mongodb://localhost/noobjs_test',
+    httpPort: 80,
+    dbHost: 'localhost',
+    dbName: 'cicee',
+    dbUser: 'juno',
+    dbPassword: '5460',
+    dbWaitForConnections: true,
+    dbConnectionLimit: 10,
+    dbQueueLimit: 0,
     root: rootPath,
     app: {
       name: 'Nodejs Express Mongoose Demo'
     }
   },
   production: {
-    db: 'mongodb://localhost/noobjs_dev',
+    httpPort: 80,
+    dbHost: 'localhost',
+    dbName: 'cicee',
+    dbUser: 'juno',
+    dbPassword: '5460',
+    dbWaitForConnections: true,
+    dbConnectionLimit: 10,
+    dbQueueLimit: 0,
     root: rootPath,
     app: {
       name: 'Nodejs Express Mongoose Demo'
